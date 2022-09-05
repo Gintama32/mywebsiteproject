@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Open+Sans&family=Oswald:wght@200;300;400;500&display=swap');
+html,body{
+    margin:0;
+    font-family:Open Sans;
+    font-weight:400;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:rgb(179, 68, 66);
+    height:68px;
+    text-align:right;
+}
+a{
+    color:white;
+    display:inline-block;
+    margin: 20px;
+    text-decoration:none;
+}
+.text{
+    text-align:center;
+    margin-top:30px;
+}
+.image{
+    display:inline-block;
+    max-width:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    margin:0;
+    overflow:hidden;
+}
+img{
+    max-width:70%;
+    background-size:fill;
+    margin: 0;
+    padding:50px;
+    height:100%
+}
+.form{
+    color:white;
+    padding:50px;
+    text-align:center;
+    background-color:rgb(93, 172, 126);
+    max-width:80%;
+    margin:auto;
+    max-height:200px;
+}
+button{
+    border:12px solid rgb(93, 172, 126);
+    border-radius:25px;
+    background-color:rgb(125, 189, 144);
+    padding:10px;
+    cursor: pointer;
+    font-size:15px;
+    color:white;
+}
+footer{
+    position:absolute;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:rgb(124, 177, 208);
+    width:100%;
+    color:rgb(47, 65, 84)
+}
